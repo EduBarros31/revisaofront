@@ -1,10 +1,19 @@
 import React from "react";
-import styles from "./Band.module.css";
+import style from "./Band.module.css";
 
-function Band() {
+
+
+function Band({imagem, nome,descricao}) {
     return (
-    <Band className={styles.band}>Componente Band</Band>
+        <div className={style.band}>
+             <img src={imagem} alt={nome}/>
+             <div className={style.bandinfo}>
+               <h2>{nome}</h2>
+                <p>{descricao}</p>
+
+        </div>
+        </div>
       
-    );
+    )
 }
 export default Band;

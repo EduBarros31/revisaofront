@@ -1,0 +1,19 @@
+.main{
+    background-color: var(--cor-main);
+    padding: var(--padding-header);
+    margin: var(--margin-padrao) auto;
+    display: flex;
+    max-width: var(--largura-max-main);
+    flex-wrap: wrap;
+    }
+    
+
+    .section{
+        flex: 1;
+        margin: var(--margin-padrao);
+        padding: var(--padding-padrao);
+        background-color: var(--cor-secao);
+        border-radius: var(--border-radius);
+        border: var(--border-size) solid var(--cor-borda);
+        
+    }

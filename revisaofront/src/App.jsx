@@ -1,13 +1,12 @@
 import React from 'react';
+import Home from "./pages/Home/home";
 
 
 function App(){
    return (
-    <div>
-    <h1>Olá Mundo</h1>
-    <p>Esse é o meu primeiro componente de React</p>
-    <Button/>
-    </div>
+  
+     <Home/>
+  
    )
 
 

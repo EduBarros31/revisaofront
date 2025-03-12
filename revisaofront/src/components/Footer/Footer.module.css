@@ -1,6 +1,8 @@
-.footer {
-
-
-
-    
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    background-color: var(--cor-secao);
+    padding: var(--padding-padrao);
 }
